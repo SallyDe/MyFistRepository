@@ -1,7 +1,0 @@
-{
-"employees": [
-{ "id":"Bill" , "name":"Gates","price":"10.25" },
-{ "id":"George" , "name":"Bush","price":"20.25" },
-{ "id":"Thomas" , "name":"Carter","price":"30.25" }
-]
-}
