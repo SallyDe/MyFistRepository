@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="icon" href="img/logoH.png" type="image/png">
+    <title>Luck Hong</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--<link rel="stylesheet" href="vendors/linericon/style.css">-->
+    <!-- Font Awesome 集成到 Bootstrap 图标字体 -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- owl-carousel的卡片水平轮播展示特效 -->
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <!-- Simple Lightbox 是一款基于 jQuery 的 Lightbox 插件 -->
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+
+    <!--  jquery-nice-select是一款轻量级的select下拉选择框美化jQuery插件。
+        该插件可以将原生的select元素转换为自定义样式的下拉选择框，
+        并且在选择时带有很酷的CSS3过渡动画效果。  -->
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <!-- CSS3 动画库 -->
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+
+    <!-- jQuery响应式弹出层和对话框插插件 -->
+    <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+    <!-- Swiper常用于移动端网站的内容触摸滑动
+    Swiper是纯javascript打造的滑动特效插件，面向手机、平板电脑等移动终端。
+    Swiper能实现触屏焦点图、触屏Tab切换、触屏多图切换等常用效果。
+    Swiper开源、免费、稳定、使用简单、功能强大，是架构移动终端网站的重要选择！ -->
+    <link rel="stylesheet" href="vendors/swiper/css/swiper.min.css">
+
+    <!-- jQuery 自定义网页滚动条样式插件 -->
+    <link rel="stylesheet" href="vendors/scroll/jquery.mCustomScrollbar.css">
+
+    <link rel="stylesheet" href="css/bootstrap-table.css">
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/Hstyle.css">
+
+
+
+</head>
+<body style="background-color:black">
+
+    <!--================Canvus Menu Area =================-->
+    <div class="side_menu" id="navbarToggleExternalContent">
+        <ul class="list menu_right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li>
+                <a href="#">Pages</a>
+                <ul class="list">
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="elements.html">Elements</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+                <ul class="list">
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="single-blog.html">Blog Details</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="canvus_menu">
+        <div class="container">
+            <div class="float-right">
+                <div class="toggle_icon">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <img class="img-responsive" src="img/banner/home-banner.png" alt="">
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-body table-responsive">
+            <table class="table table-hover table-dark" id="tableL01"></table>
+        </div>
+    </div>
+
+
+
+    <!--================End Home Banner Area =================-->
+    <!--<table id="idData" class="table table-hover table-dark" data-toggle="table" >-->
+    <div class="bootstrap-table">
+        <div class="fixed-table-container">
+            <div class="fixed-table-body">
+                <table id="idData" data-toggle="table" data-show="true" data-url="tableExport.json">
+                    <thead>
+                        <tr>
+                            <th data-field="id">Item ID</th>
+                            <th data-field="name">Item Name</th>
+                            <th data-field="price">Item Price</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="panel panel-white">
+        <div class="panel-heading clearfix">
+            <h4 class="panel-title">Hover rows</h4>
+        </div>
+
+        <div class="panel-body">
+            <table class="table table-hover table-dark">
+                <thead>
+                    <tr>
+                        <th>影片</th>
+                        <th>豆瓣评分</th>
+                        <th>综合票房</th>
+                        <th>Username</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- jQuery响应式弹出层和对话框插插件 -->
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <!--imagesLoaded是一款用于检测页面中的图片是否被加载的js插件。-->
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <!--Isotope是一款效果非常神奇的元素分类过滤和排序布局jQuery插件-->
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <!--Owl Carousel 2是可以让你创建漂亮的响应式旋转木马的jQuery插件，
+    它支持移动触摸屏，有丰富的参数设置，甚至可以嵌入视频，功能十分强大-->
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <!--jQuery ajaxChimp for MailChimp-->
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <!--jQuery滚动监听插件Waypoints.js插件-->
+    <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+    <!--jquery轻量级数字动画插件jquery.countup.js-->
+    <script src="vendors/counter-up/jquery.counterup.js"></script>
+    <!--*********************************-->
+    <script src="js/mail-script.js"></script>
+    <!--Magnific Popup 是一款免费的响应式 jQuery Lightbox 插件-->
+    <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+    <!--Swiper开源、免费、稳定、使用简单、功能强大，是架构移动终端网站的重要-->
+    <script src="vendors/swiper/js/swiper.min.js"></script>
+    <!--jQuery 自定义网页滚动条样式插件-->
+    <script src="vendors/scroll/jquery.mCustomScrollbar.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script src="js/bootstrap-table.js"></script>
+    <script src="js/bootstrap-table-zh-CN.min.js"></script>
+
+
+
+    <script type="text/javascript">
+        $(function () {
+            var tableColumns = [
+                { field: 'name', title: '名称', sortable: true },
+                { field: 'number', title: '编号', sortable: true },
+                { field: 'classes', title: '类型', sortable: true },
+                { field: 'standard', title: '规格', sortable: true },
+                { field: 'managestaff', title: '专管员', sortable: true },
+                { field: 'remark', title: '备注', sortable: true }
+            ];
+            var data1 = [
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+                { name: "aaaa", number: 1111, classes: "aklfdja", standard: "bbbb", managestaff: "ccccc", remark: "ddddd" },
+
+            ];
+            $('#tableL01').bootstrapTable('destroy');   //动态加载表格之前，先销毁表格
+
+            $('#tableL01').bootstrapTable({//表格初始化
+                columns: tableColumns,  //表头
+                data: data1, //通过ajax返回的数据
+                width: 300,
+                height: 268,
+                method: 'get',
+                pageSize: 3,
+                pageNumber: 1,
+                pageList: [],
+                cache: false,
+                striped: true,
+                pagination: true,
+                sidePagination: 'client',
+                search: false,
+                showRefresh: false,
+                showExport: false,
+                showFooter: true,
+                clickToSelect: true,
+            });
+
+        });
+    </script>
+
+
+</body>
+</html>
